@@ -1,0 +1,75 @@
+body{
+    width:100%;
+    margin:0;
+    padding:0%;
+   
+    background-image: url('fb.jpg');
+    
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+header{
+   width:100%;
+   background-color: #3b5998;
+   border-bottom:1px solid #133783;
+   
+  
+    }
+header a{
+    color: rgb(235, 235, 238);
+    text-decoration: none;
+}
+#login{
+    color:#5f76a9;
+}
+#brand{
+    font-size:230%;
+    align-self: center;
+    font-weight: bold;
+}
+header form {
+    display:flex ;
+   justify-content:flex-end;
+    flex-direction:row;
+    padding: 0.6cm;
+    color: rgb(250, 245, 240);
+}
+.lower{
+    justify-content:flex-end;
+    flex-direction:row;
+    padding:0cm;
+}
+
+/* img{
+    width:610px;;
+    margin-right:70px;
+    margin-top: auto;
+} */
+
+.h{
+    margin-top:0;
+    margin-left:27cm;
+}
+
+
+
+
+
+
+
+
+
+
+.CA{
+    margin-right: 0px;
+    margin-left: 27cm;
+}
+
+.fb{
+ margin-bottom: 100px;
+}
+
+.form2{
+    margin-left:27cm;
+}
