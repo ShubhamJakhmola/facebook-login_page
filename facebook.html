@@ -2,12 +2,19 @@
     <html lang="eng">
     <head><title>Facebook</title>
         <link rel="stylesheet"href="facebook.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
     </head>
 
     <body >
         <header>
-                <a href="#" id="brand">Facebook</a>
-                
+            <div class="brand">
+                    <a href="#">Facebook</a>
+            </div>   
            <form actiom="/">
             <div class="one">
             Email or phone
@@ -29,74 +36,79 @@
             </div>
         </form>
         </header>
+
+        <main>
+
+           <div class="image">
+            <img src="fb1.jpg">
+              </div>
+
         
-        <div class="h">
+
+            <div class="lower">
+    
             <h1><b>Create an account</b></h1>
-           <h2>it's quick and easy.</h2><br> 
+            <h2>it's quick and easy.</h2><br> 
+            <form action="mailto:123@abc.com" method="post">
+             <input type="text" name="firstname" placeholder="firstname" class="form2"required>
+            <input type="text" name="surname" placeholder="surname"class="form2" required>
+            <br><br>
+            <input type="email" placeholder=" Mobile number or email address" class="form2 form2new" required>
+            <br><br>
+            <input type="password" placeholder="New password" class="form2 form2new" required>
+            <br>
+            <br>
+            <div class="detail">
+            Birthday<br>
+            
+            <select> <option>Date</option><option>1</option>
+                <option>2</option><option>3</option><option>4</option>
+                <option>5</option><option>6</option><option>7</option><option>8</option>
+                    <option>9</option><option>10</option><option>11</option>
+                    <option>12</option><option>13</option><option>14</option><option>15</option>
+                    <option>16</option><option>17</option><option>18</option><option>19</option>
+                    <option>20</option><option>21</option><option>22</option><option>23</option>
+            </select>
+            <select>
+                 <option>Month</option> <option>jan</option>
+                    <option>feb</option><option>mar</option>
+                    <option>Apr</option><option>may</option>
+                    <option>june</option><option>july</option>
+                    <option>Aug</option><option>Sep</option>
+                   <option>Oct</option><option>Nov</option>
+                   <option>Dec</option>
+            </select>
+            <select>
+                <option>Year</option>
+                <option>1997</option><option>1998</option>
+                <option>1999</option><option>2000</option>
+                <option>2001</option><option>2002</option>
+                <option>2003</option><option>2004</option>
+                <option>2005</option><option>2006</option>
+           </select><br>
+        </div>
+          Gender<br>
+          <input type="radio" name="Female" id="Female" >
+
+            <label for="Female">Female</label>
+            <input type="radio" name="male" id="male" >
+           <label for="male">male</label>
+           <input type="radio" name="custom" id="cus">
+            <label for="cus">Custom</label>
+            <br>
+             <br><br>
+           <input type="submit" id="signup" value="Sign up">
+            <br>
+            <br>
+            <br><br>
+           </form>
+            
            </div>
-    </div>
-
-    <div class="lower">
-    
-       <!--- <div class="image">
-        <img src="fb.jpg">
-        </div>-->
-         <div class="form2">
-         <form action="mailto:123@abc.com" method="post">
-        <input type="text" name="firstname" placeholder="firstname" required>
-        <input type="text" name="surname" placeholder="surname" required>
-        <br><br>
-     <!--input type="email" palceholder="Mobile number and email address" required -->
-        <input type="email" placeholder=" Mobile number or email address" required>
-         <br>
-   <input type="password" placeholder="New password" required>
-    <br>
-    <br>
-    Birthday<br>
-    <select>
-    <option>1</option>
-    <option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option>
-
-   </select>
-   <select>
-    <option>jan</option>
-    <option>feb</option><option>mar</option>
-    <option>Apr</option><option>may</option>
-    <option>june</option><option>july</option><option>Aug</option>
-    <option>Sep</option><option>Oct</option><option>Nov</option><option>Dec</option>
-   </select>
-   <select>
-    <option>1997</option><option>1998</option>
-    <option>1999</option><option>2000</option>
-    <option>2001</option><option>2002</option>
-    <option>2003</option><option>2004</option>
-    <option>2005</option><option>2006</option>
-   </select><br>
-   Gender<br>
-   <input type="radio" name="Female" id="Female" value="Female">
-   <label for="Female">Female</label>
-   <input type="radio" name="male" id="male"value="male" >
-   <label for="male">male</label>
-   <input type="radio" name="custom" id="cus"value="custom">
-   <label for="cus">Custom</label>
-    </form>
-    <b>
-    <input type="submit" value="Sign up">
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-</div>
-</body>
-    </html>
+        </main>
+   </body>
+   <footer class="footer">
+    <div class="foot"> Facebook.com <br>
+      copyright © 2022-2023</div>
+     
+   </footer>
+</html>
